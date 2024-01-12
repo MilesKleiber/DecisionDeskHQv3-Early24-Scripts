@@ -4,7 +4,7 @@ import time
 import os
 
 
-# This is a python script to use the bearer token provided from ddhqauth to pull election data from DecisionDeskHQ.
+# This is a python script to use the bearer token provided from ddhqauth.py to pull election data from DecisionDeskHQ.
 #
 # YOU NEED YOUR OWN DDHQ CLIENT CREDS TO USE THESE SCRIPTS.
 
