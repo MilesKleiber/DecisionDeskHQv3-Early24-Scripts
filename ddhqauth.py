@@ -2,9 +2,6 @@ import requests
 import json
 
 
-
-
-
 print("Authenticating...")
 with open('client_creds.json', 'r') as credentials:
     credentials = json.load(credentials)
