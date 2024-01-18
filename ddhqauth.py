@@ -2,6 +2,12 @@ import requests
 import json
 
 
+# This is a python script to pull the client creds in client_creds.json to retrieve a bearer token and use that
+# as authentication for the request in ddhqdata.py.
+#
+# YOU NEED YOUR OWN DDHQ CLIENT CREDS TO USE THESE SCRIPTS.
+
+
 print("Authenticating...")
 with open('client_creds.json', 'r') as credentials:
     credentials = json.load(credentials)
